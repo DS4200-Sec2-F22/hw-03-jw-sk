@@ -1,16 +1,15 @@
-let numClicks = 0; 
-console.log(numClicks);  
+function button1Clicked() {;
 
-function addOne() {
-    numClicks = numClicks + 1; 
-    return numClicks; 
+    let buttonDiv = document.getElementById("button-1-div");
+
+    buttonDiv.innerHTML = "Button Pressed"; 
 }
- 
-function buttonClicked() {;
 
-    let buttonDiv = document.getElementById("button-div");
+function button2Clicked() {;
 
-    buttonDiv.innerHTML = "Number of times button clicked: " + addOne(); 
+    let buttonDiv = document.getElementById("button-2-div");
+
+    buttonDiv.innerHTML = "Button Pressed"; 
 }
 
 
