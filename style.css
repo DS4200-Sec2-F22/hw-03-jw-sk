@@ -1,0 +1,39 @@
+body {
+    font-family: Arial; 
+}
+
+button {
+    margin: 10px;
+}
+
+.flex-container {
+  
+  display: flex;
+  flex-direction: row;
+  /*
+  margin: 15px;
+  background-color: white;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  
+  padding: 5px;
+  margin: 0;
+  list-style: none;
+  */
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  
+  /*
+  flex-basis: 100%;
+  flex: 1;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  */
+}
