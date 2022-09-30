@@ -24,7 +24,7 @@ function button2Clicked() {;
 
     button2.remove();
     button2Div.innerHTML = "<h1>Colormap(s)</h1>\
-    <ul><li>Divergent</li><ul><li>They use a divergent red to blue color map containing three possible colors: red, striped, then blue. </li> \
+    <ul><li>Divergent</li><ul><li>They use a divergent red to blue color map containing three possible colors: red, striped, then blue. This represents the attribute type of categorical.</li> \
     <li>I would characterize this as divergent because the striped represents a middleground between the red and blue. Each color represents the political leaning of the state (though unclear by what definition). This is a good choice because each color reflects the natural democrats are blue / republicans red tradition and both colors are easy to see.</li></ul></ul>"; 
 }
 
